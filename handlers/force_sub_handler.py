@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @CTP_Official
 
 from configs import Config
 from pyrogram.errors import UserNotParticipant
