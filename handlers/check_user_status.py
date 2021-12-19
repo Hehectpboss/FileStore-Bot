@@ -1,4 +1,4 @@
-# (c) Mr. Vishal & @AbirHasan2005
+# (c) @CTP_Official
 
 import datetime
 from configs import Config
