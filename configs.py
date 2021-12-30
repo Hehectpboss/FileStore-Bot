@@ -22,11 +22,11 @@ class Config(object):
 
 👲 **Developer** : [ᴍʜᴅ ᴍᴜꜰᴀz 🇮🇳](https://telegram.me/MufazTG)
 
-📣 **Channel** : @BX_Movies
+📣 **Channel** : @CTP_Official
 
-👥 **Group** : [BX Movies Group](https://t.me/BXMOVIESGROUP)
+👥 **Group** : [CTP Discuss Group](https://t.me/CTP_Discuss)
 
-💻 **Source** : [Click here](https://t.me/nokiyirunnoippokitum)
+💻 **Source** : [Click here](https://t.me/CTP_Official)
 
 🎧 **Language** : [Python3](https://python.org/)
 
@@ -35,13 +35,13 @@ class Config(object):
 🧑‍💻 **Server** : [Heroku](https://heroku.com/)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:[ᴍʜᴅ ᴍᴜꜰᴀᴢ 🇮🇳](https://t.me/mufazTG)
+🧑🏻‍💻 **Developer:[CTP Official](https://t.me/CTP_Official)
 """
 	HOME_TEXT = """Hello, [{}](tg://user?id={})
 
-**Iam A Bot Of @BX_Movies. I Will Give You Movie Files**
+**Iam A Bot Of @CTP_Official. I Will Give You Movie Files**
 
-👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [🎨 BX Movies](https://t.me/BX_Movies)
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [👑CTP Official👑](https://t.me/BX_Movies)
 """
 	HELP_TEXT = f"""**Sorry! I Can't Help You**
 """
