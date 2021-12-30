@@ -20,7 +20,7 @@ class Config(object):
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_MSG = f"""🤖 **Bot** : BX Movies Bot
 
-👲 **Developer** : [ᴍʜᴅ ᴍᴜꜰᴀz 🇮🇳](https://telegram.me/MufazTG)
+👲 **Developer** : [CTP_Official](https://telegram.me/CTP_Official)
 
 📣 **Channel** : @CTP_Official
 
