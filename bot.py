@@ -66,8 +66,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Movie Channel", url="https://t.me/BX_Movies"),
-                        InlineKeyboardButton("⚜️ Movie Group", url="https://t.me/BXMoviesGroup")
+                        InlineKeyboardButton("Official Channel", url="https://t.me/CTP_Official"),
+                        InlineKeyboardButton("Request Group", url="https://t.me/CTP_Requests")
                     ]
                 ]
             )
