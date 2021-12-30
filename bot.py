@@ -33,8 +33,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Movie Channel", url="https://t.me/BX_Movies"),
-                        InlineKeyboardButton("Movie Group", url="https://t.me/BXMoviesGroup")
+                        InlineKeyboardButton("Official Channel", url="https://t.me/CTP_Official"),
+                        InlineKeyboardButton("Request Group", url="https://t.me/CTP_Requests")
                     ]
                 ]
             )
@@ -129,8 +129,8 @@ async def main(bot: Client, message: Message):
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("Movie Channel", url="https://t.me/BX_Movies"),
-                      InlineKeyboardButton("Movie Group", url="https://t.me/BXMoviesGroup")]]
+                    [[InlineKeyboardButton("Official Channel", url="https://t.me/CTP_Official"),
+                      InlineKeyboardButton("Request Group", url="https://t.me/CTP_Requests")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -341,12 +341,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Update Channel", url="https://t.me/BX_Botz"),
-                        InlineKeyboardButton("👥Support Group", url="https://t.me/BxSupport")
+                        InlineKeyboardButton("🤖 Update Channel", url="https://t.me/CTP_Official"),
+                        InlineKeyboardButton("👥Support Group", url="https://t.me/CTP_Discuss")
                     ],
                     [
                         InlineKeyboardButton("🔰About", callback_data="about"),
-                        InlineKeyboardButton("💡Bot List", url="https://t.me/BX_Botz/31")
+                        InlineKeyboardButton("💡Bot List", url="https://t.me/CTP_Official")
                     ]
                 ]
             )
@@ -358,7 +358,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/BxSupport).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/CTP_Discuss).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
