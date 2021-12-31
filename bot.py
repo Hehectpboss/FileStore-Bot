@@ -112,7 +112,7 @@ async def main(bot: Client, message: Message):
             else:
                 pass
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/BxSupport)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/CTP_Discuss)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -314,7 +314,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("🏠Home", callback_data="gotohome"),
-                        InlineKeyboardButton("⚜️Share⚜️", url="https://t.me/share/url?url=%2A%2AHai%20Friends%2C%20%2A%2A%0A%60Here%20We%20Found%20an%20Advanced%20Telegram%20Filestore%20Bot%60%0ALink%20%40BXFileStoreBot%20Channel%20%40BX_Botz")
+                        InlineKeyboardButton("⚜️Share⚜️", url="https://t.me/share/url?url=%2A%2AHai%20Friends%2C%20%2A%2A%0A%60Here%20We%20Found%20an%20Advanced%20Telegram%20Filestore%20Bot%60%0A%20Channel%20%40CTP_Official")
                     ]
                 ]
             )
@@ -327,7 +327,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚜️Share⚜️", url="https://t.me/share/url?url=%2A%2AHai%20Friends%2C%20%2A%2A%0A%60Here%20We%20Found%20an%20Advanced%20Telegram%20Filestore%20Bot%60%0ALink%20%40BXFileStoreBot%20Channel%20%40BX_Botz"),
+                        InlineKeyboardButton("⚜️Share⚜️", url="https://t.me/share/url?url=%2A%2AHai%20Friends%2C%20%2A%2A%0A%60Here%20We%20Found%20an%20Advanced%20Telegram%20Filestore%20Bot%60%0A%20Channel%20%40CTP_Official"),
                         InlineKeyboardButton("🏠Home", callback_data="gotohome")
                     ]
                 ]
@@ -381,7 +381,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/BxSupport).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/CTP_Requests).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -393,8 +393,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Movie Channel", url="https://t.me/BX_Movies"),
-                        InlineKeyboardButton("⚜️ Movie Group", url="https://t.me/BXMoviesGroup")
+                        InlineKeyboardButton("Official Channel", url="https://t.me/CTP_Official"),
+                        InlineKeyboardButton("Request Group", url="https://t.me/CTP_Requests")
                     ]
                 ]
             )
