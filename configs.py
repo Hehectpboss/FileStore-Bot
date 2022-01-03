@@ -41,7 +41,7 @@ class Config(object):
 
 **Iam A Bot Of @CTP_Official. I Will Give You Movie Files**
 
-👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [👑CTP Official👑](https://t.me/BX_Movies)
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [👑CTP Official👑](https://t.me/CTP_Official)
 """
 	HELP_TEXT = f"""**Sorry! I Can't Help You**
 """
