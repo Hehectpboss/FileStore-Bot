@@ -36,7 +36,7 @@ This is Telegram Parmanent Files Store Bot
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BXBotz-MufazTG/FilesStore-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hehectpboss/FileStore-Bot)
 
 ## Commands
 
